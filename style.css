@@ -66,13 +66,13 @@
     #e6dee9 100%
   );
   background-blend-mode: screen;
-  opacity: 0.9;
-  font-size: 60px;
+  opacity: 0.8;
+  font-size: 48px;
 }
 .carousel-inner img {
   margin: 0 auto;
   width: 80%;
-  height: 800px;
+  height: 60%;
 }
 
 /*-----------------About-------------------*/
