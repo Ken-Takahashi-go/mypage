@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP";
+}
+.wf-notosansjapanese {
+  font-family: "Noto Sans JP";
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand {
+  height: 40px;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 30%;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+  float: right;
+}
+.navbar-nav li a {
+  float: right;
+  text-align: left;
+  color: black !important;
+}
+
+#nav-bar ul li a:hover {
+  color: white !important;
+
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  transition: 5;
+  border-radius: 20px;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-link {
+  color: #555 !important;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*---------------Slider*/
+
+#slider {
+  width: 100%;
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial !important;
+}
+.carousel-caption h5 {
+  color: white;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to top,
+    #fdcbf1 0%,
+    #fdcbf1 1%,
+    #e6dee9 100%
+  );
+  background-blend-mode: screen;
+  opacity: 0.9;
+  font-size: 60px;
+}
+.carousel-inner img {
+  margin: 0 auto;
+  width: 80%;
+  height: 800px;
+}
+
+/*-----------------About-------------------*/
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+#about h2::after {
+  content: "";
+  background-color: #007bff;
+  display: block;
+  height: 3px;
+  width: 140px;
+  margin: 20px 0 5px;
+}
+
+#about .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  padding-top: 20px;
+}
+.about-content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#about .container .row {
+  position: relative;
+}
+.skills-bar {
+  position: absolute;
+  top: 50;
+}
+
+.skills-bar p {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.progress-bar {
+  border-radius: 16px;
+}
+.progress {
+  border-radius: 16px !important;
+  margin-bottom: 20px;
+}
+/*---------------------------Services----------------------*/
+#services {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(image/#);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#services h1 {
+  text-align: center;
+  color: #efefef !important;
+  padding-bottom: 10px;
+}
+#services h1::after {
+  content: "";
+  background-color: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+.services {
+  margin-top: 40px;
+}
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.fa-html5 {
+  color: orange;
+}
+.fa-react {
+  color: #00ffff;
+}
+.services p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.services .col-md-3:hover {
+  background-color: #007bff;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+/*--------------------my works----------------------*/
+#works {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#works h1 {
+  text-align: center;
+}
+#works h1::after {
+  content: "";
+  background-color: #007bff;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+#works .row {
+  margin-top: 30px;
+}
+.col-md-4 {
+  margin: 40px auto;
+}
+.profile {
+  background-color: #efefef;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.user {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile i {
+  border: 10px solid #fff;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 100px;
+  margin-top: -50px;
+}
+.fa-html5 {
+  color: #15aabf;
+}
+.fa-css3-alt {
+  color: #4c6ef5;
+}
+.fa-node-js {
+  color: #82c91e;
+}
+
+.profile h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #007bff;
+}
+#works span {
+  font-size: 12px;
+  color: #333;
+}
+blockquote {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 100px auto;
+}
+.profile p {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.profile:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.sample-comment {
+  background-image: linear-gradient(to top, #f5efef 0%, #feada6 100%);
+  opacity: 0.8;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  align-items: center;
+  transition: 1;
+}
+.sample-comment2 {
+  background-image: linear-gradient(to top, #f5efef 0%, #feada6 100%);
+  opacity: 0.8;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  align-items: center;
+  transition: 1;
+}
+.app-comment {
+  background-image: linear-gradient(to top, #e7f0fd 0%, #accbee 100%);
+  opacity: 0.8;
+  right: 5%;
+  width: 90%;
+  height: 100%;
+  position: absolute;
+  z-index: 100;
+  align-items: center;
+  transition: 1;
+}
+/*--------------------Get in touch----------------------*/
+#contact {
+  background-color: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+}
+.contact-form {
+  padding: 15px;
+}
+.form-control {
+  border-radius: 0 !important;
+  border: none !important;
+}
+::placeholder {
+  color: #999 !important;
+}
+.follow {
+  background-color: #fff;
+  padding: 10px;
+  margin: 15px;
+}
+.contact-info .fas {
+  margin: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
+.follow i {
+  margin: 5px;
+}
+
+/*--------------------Get in touch----------------------*/
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 12px;
+}
+.fa-heart {
+  margin: 5px;
+  color: red;
+}
